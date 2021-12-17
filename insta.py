@@ -210,8 +210,8 @@ def menu_dev():
 	print(" [ Welcome %sADMIN!%s ]\n"%(K,N))
 	print(" [01]. Crack Dari Followers/Following")
 	print(" [02]. Crack Dari Pencarian")
-	print(" [03]. Cek akun Hasil crack")
-	print(" [%s00%s]. Logout (Hapus Login)"%(M,N))
+	print(" [03]. Cek akaun Hasil crack")
+	print(" [%s00%s]. Logout"%(M,N))
 	pil = raw_input("\n [?] pilih menu : ")
 	limit = ("100000")
 	if pil == "1" or pil == "01":
