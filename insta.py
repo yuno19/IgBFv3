@@ -126,7 +126,7 @@ def login_dev():
 	global cookie
 	os.system("clear")
 	logo()
-	print "  [ login akun instagram untuk lanjut ]"
+	print "  [ login aakun instagram untuk lanjut ]"
 	username_dev = raw_input("\n [?] username instagram : ")
 	pass_dev = raw_input(" [?] password instagram : ")
 	try:
@@ -237,7 +237,7 @@ def menu_dev():
 		else:
 			pass
 	elif pil == "2" or pil == "02":
-		usr_ = raw_input(" [?] masukan nama pencarian (cth : putri): ")
+		usr_ = raw_input(" [?] masukan nama pencarian (cth : KuaciBasi): ")
 		jm = input(" [?] masukan jumlah : ")
 		us = usr_.replace(" ", "")
 		pencarian_.append("iqbal_dev")
@@ -283,14 +283,14 @@ def menu_dev():
 			raw_input("\n%s [*] tekan enter untuk kembali ke menu "%(N))
 			menu_dev()
 		else:
-			exit(" [!] pilih yang bener!")
+			exit(" [!] pilih yang benar!")
 	elif pil == "0" or pil == "00":
-		kel = raw_input(" [?] yakin mau keluar dari akun Instagram?[Y/t] : ")
+		kel = raw_input(" [?] yakin nak Logout dari akun Instagram?[Y/t] : ")
 		if kel in ["y", "Y"]:
 			hapus_cookie()
-			print " [✓] berhasil keluar..."
+			print " [✓] berhasil logout..."
 		else:
-			print" [*] silahkan jalan ulang toolsnya"
+			print" [*] silahkan jalan restart toolsnya"
 	else:
 		print" [!] isi pilhan dengan benar!"
 
@@ -454,7 +454,7 @@ def crack_dev(username_dev, pass_dev_):
 						follow_dev(ses_dev,username_dev)
 					break
 				elif "Please wait" in str(data_dev):
-					print("\r %s[!] IP anda terblokir, aktifkan mode pesawat 2 detik"%(M)),
+					print("\r %s[!] IP anda Di Block, aktifkan mode pesawat 2 Saat"%(M)),
 					c+=1
 					sys.stdout.flush()
 					pass_dev_iq = [pass_dev]
