@@ -207,7 +207,7 @@ def menu_dev():
 	print(" [*] Expired : 00")
 	print(" [*] ---------------------------------------------")
 	print(" [*] IP          : %s\n"%(IP))
-	print(" [ Welcome %sADMIN%s ]\n"%(K,N))
+	print(" [ Welcome %sADMIN!%s ]\n"%(K,N))
 	print(" [01]. Crack Dari Followers/Following")
 	print(" [02]. Crack Dari Pencarian")
 	print(" [03]. Cek akun Hasil crack")
@@ -487,19 +487,19 @@ def info_dev(username_dev, pass_dev, status):
 		pengikut = data_us_dev["edge_followed_by"]["count"]
 		mengikuti = data_us_dev["edge_follow"]["count"]
 		if status == "Live":
-			print"\r "+N+"[✓] Status   : "+H+status + "                 "
-			print"\r "+N+"[✓] Nama     : "+H+ str(nama) + "              "
-			print"\r "+N+"[✓] pengikut : "+H+ str(pengikut) + "              "
-			print"\r "+N+"[✓] mengikuti: "+H+ str(mengikuti) + "              "
-			print"\r "+N+"[✓] Username : "+H+ username_dev + "              "
-			print"\r "+N+"[✓] Password : "+H+ pass_dev + "             \n"
+			print"\r "+N+"[*] Status   : "+H+status + "                 "
+			print"\r "+N+"[*] Nama     : "+H+ str(nama) + "              "
+			print"\r "+N+"[*] pengikut : "+H+ str(pengikut) + "              "
+			print"\r "+N+"[*] mengikuti: "+H+ str(mengikuti) + "              "
+			print"\r "+N+"[*] Username : "+H+ username_dev + "              "
+			print"\r "+N+"[*] Password : "+H+ pass_dev + "             \n"
 		elif status == "Checkpoint":
-			print"\r "+N+"[x] Status   : "+K+status + "                 "
-			print"\r "+N+"[x] Nama     : "+K+ str(nama) + "              "
-			print"\r "+N+"[x] pengikut : "+K+ str(pengikut) + "              "
-			print"\r "+N+"[x] mengikuti: "+K+ str(mengikuti) + "              "
-			print"\r "+N+"[x] Username : "+K+ username_dev + "              "
-			print"\r "+N+"[x] Password : "+K+ pass_dev + "             \n"
+			print"\r "+N+"[!] Status   : "+K+status + "                 "
+			print"\r "+N+"[!] Nama     : "+K+ str(nama) + "              "
+			print"\r "+N+"[!] pengikut : "+K+ str(pengikut) + "              "
+			print"\r "+N+"[!] mengikuti: "+K+ str(mengikuti) + "              "
+			print"\r "+N+"[!] Username : "+K+ username_dev + "              "
+			print"\r "+N+"[!] Password : "+K+ pass_dev + "             \n"
 		else:
 			pass
 	except:
