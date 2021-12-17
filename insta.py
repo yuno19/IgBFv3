@@ -204,7 +204,7 @@ def menu_dev():
 	print(" [*] Today   : %s"%(tgl))
 	print(" [*] ---------------------------------------------")
 	print(" [*] Status : %sACTIVE%s"% (H,N))
-	print(" [*] Expired : 00")
+	print(" [*] Username : ADMIN")
 	print(" [*] ---------------------------------------------")
 	print(" [*] IP          : %s\n"%(IP))
 	print(" [ Welcome %sADMIN!%s ]\n"%(K,N))
